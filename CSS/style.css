@@ -1,0 +1,146 @@
+/**************************/
+/* Header */
+/**************************/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+.logo {
+  height: 2.2rem;
+}
+/**************************/
+/* Navigation */
+/**************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.nav-cta.main-nav-link:link,
+.nav-cta:visited {
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+/**************************/
+/* Hero Section */
+/**************************/
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  max-width: 120rem;
+  display: grid;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+  align-items: center;
+}
+.hero-img {
+  width: 100%;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+.delivered-imgs {
+  display: flex;
+}
+.delivered-meals img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.delivered-meals img:last-child {
+  margin: 0;
+}
+.delivered-text {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.delivered-text span {
+  font-weight: 700;
+  color: #cf711f;
+}
+
+.section-how {
+  padding: 9.6rem 0;
+}
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  position: absolute;
+  display: block;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+}
+.step-img-box::before {
+  width: 60%;
+  z-index: -2;
+  background-color: #fdf2e9;
+  padding-bottom: 60%;
+}
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  z-index: -1;
+  background-color: #fae5d3;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.step-img {
+  width: 35%;
+}
