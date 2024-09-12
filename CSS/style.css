@@ -454,7 +454,20 @@
 }
 
 .cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
 }
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+  color: #45260a;
+}
+
+.cta-text {
+  line-height: 1.8;
+  font-size: 1.8rem;
+}
+
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -464,4 +477,10 @@
     url("../img/eating.jpg");
   background-position: center;
   background-size: cover;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
